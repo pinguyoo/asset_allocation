@@ -26,4 +26,5 @@
   [name]="navigation.name"
   [mode]="expanded ? 'full' : 'brief'"
   size="small"
+  (click)="onNavigate(navigation.path)"
 ></app-navigation>
