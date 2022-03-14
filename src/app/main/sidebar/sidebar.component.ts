@@ -24,6 +24,11 @@ export class SidebarComponent implements OnInit {
         path: 'dashboard',
       },
       {
+        icon: 'grid_on',
+        name: 'Asset',
+        path: 'asset',
+      },
+      {
         icon: 'history',
         name: 'History',
         path: 'history',

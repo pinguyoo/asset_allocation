@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { MainModule } from './main/main.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
+import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
   declarations: [AppComponent],
@@ -12,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
     MainModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    AgGridModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
